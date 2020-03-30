@@ -31,22 +31,21 @@ coming soon ...
 ## Usage
 usage: tulip COMMAND [OPTION]    
 
-optional arguments:   
-  -h, --help            show this help message and exit   
+    optional arguments:   
+        -h, --help            show this help message and exit   
 
-command:   
-  (for more information : tulip COMMAND -h)   
-    backup              Create a backup   
-    create              Create a new database   
-    delete              Delete one or more records   
-    insert              Insert record into database   
-    list                List tables  
-    summary             Display the summary of database or table  
-    read                Display one or more records  
-    shell               Open sqlite3 shell  
-    template            Make table_name_tpl.md file  
-    update              Update record(s)  
------------------------------------------------------------------
+    command:   
+      backup              Create a backup   
+      create              Create a new database   
+      delete              Delete one or more records   
+      insert              Insert record into database   
+      list                List tables  
+      summary             Display the summary of database or table  
+      read                Display one or more records  
+      shell               Open sqlite3 shell  
+      template            Make table_name_tpl.md file  
+      update              Update record(s)  
+
 
 ### Exemple of summary
 $ tulip summary  
