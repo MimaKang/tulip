@@ -2,6 +2,7 @@
 
 """
 reach to author : mima@fiftypercent-magazine.org
+git : https://github.com/fiftypercent-mima/tulip
 
 Copyright (c) 2020 Mima Kang
 
@@ -709,7 +710,7 @@ def parser():
     # create the parser
     parser = argparse.ArgumentParser(
             description=u'\U0001F337',
-            epilog='address: github',
+            epilog='git : https://github.com/fiftypercent-mima/tulip',
             usage=""" %(prog)s COMMAND [OPTION]""",
             )
     subparsers = parser.add_subparsers(
