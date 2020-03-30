@@ -85,15 +85,16 @@ Write template and insert with command.
 * You can use any filetype .txt, .md, etc.,   
 
 ## Contributing
-In case you spotted an error or think that an example is not to clear enough and should be further improved, please feel free to open an issue or pull request.
+In case you spotted an error or think that an example is not to clear enough and should be further improved,  
+please feel free to open an issue or pull request.
 
 ## Behind The Tulip 
-If you've scrolled this for you might as well interesting about behind story of this program.
-This is my first program I wrote to learn python. 
-I fall in love with programming but yet I don't know how to make love with programming safely , beautifully. 
-If you can give me any tip or advice about tulp code or general programming. 
-You will be the rain in my deadly isolated and droughted programming land.
-I wellcome any literally any programming adivce and I won't forget your help.
+If you've scrolled this for you might as well interesting about behind story of this program.  
+This is my first program I wrote to learn python.    
+I fall in love with programming but yet I don't know how to make love with programming safely , beautifully.   
+If you can give me any tip or advice about tulp code or general programming.   
+You will be the rain in my deadly isolated and droughted programming land.  
+I wellcome any literally any programming adivce and I won't forget your help.  
 
 ## License
 [MIT](https://choosealicense.com/licenses/mit/)
