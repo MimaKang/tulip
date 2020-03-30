@@ -9,8 +9,8 @@
 For now tulip only runs on MacOs
 
 ### Requirements
--Python3
--pip3
+-Python3  
+-pip3  
 
 ### MacOS
     # Download the repository.
@@ -29,47 +29,48 @@ For now tulip only runs on MacOs
 coming soon ...
 
 ## Usage
-usage: tulip COMMAND [OPTION]
+usage: tulip COMMAND [OPTION]    
 
-optional arguments:
-  -h, --help            show this help message and exit
+optional arguments:   
+  -h, --help            show this help message and exit   
 
-command:
-  (for more information : tulip COMMAND -h)
-    backup              Create a backup
-    create              Create a new database
-    delete              Delete one or more records
-    insert              Insert record into database
-    list                List tables
-    summary             Display the summary of database or table
-    read                Display one or more records
-    shell               Open sqlite3 shell
-    template            Make table_name_tpl.md file
-    update              Update record(s)
+command:   
+  (for more information : tulip COMMAND -h)   
+    backup              Create a backup   
+    create              Create a new database   
+    delete              Delete one or more records   
+    insert              Insert record into database   
+    list                List tables  
+    summary             Display the summary of database or table  
+    read                Display one or more records  
+    shell               Open sqlite3 shell  
+    template            Make table_name_tpl.md file  
+    update              Update record(s)  
 -----------------------------------------------------------------
-### Exemple of summary
-$ tulip summary
-![ex-summary](/images/tpl_ex_summary.jpg){: style="float:center"}
 
-$ tulip summary [TABLE] 
-![ex-summary-table](/images/tpl_ex_summary_table.jpg){: style="float:center"}
+### Exemple of summary
+$ tulip summary  
+![ex-summary](/images/tpl_ex_summary.jpg)
+
+$ tulip summary [TABLE]    
+![ex-summary-table](/images/tpl_ex_summary_table.jpg)
 
 ### Template Rules
--Define Table
-    #tp:table
-        Write table name here
--Define Column and Column's value
-    #tp:column name 
-        column's value
--Define Column Datatype
-    #tp:column name[DATATYPE]
-    if no datatype given, then datatype will be TEXT
--If Datatype is json
-    #tp:ThirdColumnName[json]
-        @key:json_key_name
-            value
+-Define Table  
+    #tp:table  
+        Write table name here  
+-Define Column and Column's value  
+    #tp:column name   
+        column's value  
+-Define Column Datatype  
+    #tp:column name[DATATYPE]  
+    if no datatype given, then datatype will be TEXT  
+-If Datatype is json  
+    #tp:ThirdColumnName[json]  
+        @key:json_key_name  
+            value  
 
-#### Template Exemple
+#### Template Exemple  
     #tp:table
         TableName
 
@@ -87,12 +88,12 @@ $ tulip summary [TABLE]
         @key:second_json_key_name
             second_json_value
 
-* read insrted exemple.md on tulip
-    $ tulip read TableName
-![tpp-ex-read](/images/tpl_ex_read.jpg){: style="float:center"}
+* read insrted exemple.md on tulip  
+    $ tulip read TableName  
+![tpp-ex-read](/images/tpl_ex_read.jpg)  
 
-* TableID(auto increment, PrimaryKey) and timestamp(YYYY-mm-DD HH:MM:ss) will be inserted by default. 
-* You can use any filetype .txt, .md, etc., 
+* TableID(auto increment, PrimaryKey) and timestamp(YYYY-mm-DD HH:MM:ss) will be inserted by default.   
+* You can use any filetype .txt, .md, etc.,   
 
 ## Contributing
 In case you spotted an error or think that an example is not to clear enough and should be further improved, please feel free to open an issue or pull request.
