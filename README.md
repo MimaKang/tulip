@@ -9,8 +9,8 @@
 For now tulip only runs on MacOs
 
 ### Requirements
-Python 3
-pip3
+-Python3
+-pip3
 
 ### MacOS
     # Download the repository.
