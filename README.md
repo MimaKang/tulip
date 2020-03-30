@@ -29,7 +29,7 @@ For now tulip only runs on MacOs
 coming soon ...
 
 ## Usage
-usage: tulip COMMAND [OPTION]    
+    usage: tulip COMMAND [OPTION]    
 
     optional arguments:   
         -h, --help            show this help message and exit   
@@ -54,22 +54,12 @@ $ tulip summary
 $ tulip summary [TABLE]    
 ![ex-summary-table](/images/tpl_ex_summary_table.jpg)
 
-### Template Rules
--Define Table  
-    #tp:table  
-        Write table name here  
--Define Column and Column's value  
-    #tp:column name   
-        column's value  
--Define Column Datatype  
-    #tp:column name[DATATYPE]  
-    if no datatype given, then datatype will be TEXT  
--If Datatype is json  
-    #tp:ThirdColumnName[json]  
-        @key:json_key_name  
-            value  
 
-#### Template Exemple  
+#### To Insert
+Write template and insert with command.
+* Soon It will be possible to insert data on terminal without template...
+
+##### Template Exemple  
     #tp:table
         TableName
 
