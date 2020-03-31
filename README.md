@@ -14,7 +14,7 @@ For now tulip only runs on MacOs
 
 ### MacOS
     # Download the repository.
-    $ git clone [address]
+    $ git clone https://github.com/MimaKang/tulip.git
     
     # Installation
     pip3 install -e .
