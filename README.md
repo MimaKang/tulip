@@ -8,11 +8,11 @@
 ## Installation
 For now tulip only runs on MacOs
 
-### Requirements
+##### Requirements
 -Python3  
 -pip3  
 
-### MacOS
+###### MacOS
     # Download the repository.
     $ git clone https://github.com/MimaKang/tulip.git
     
@@ -25,7 +25,7 @@ For now tulip only runs on MacOs
     # Create database
     $ tulip create DB_NAME
 
-### Windows & Ubuntu
+###### Windows & Ubuntu
 coming soon ...
 
 ## Usage
@@ -47,7 +47,7 @@ coming soon ...
       update              Update record(s)  
 
 
-### Exemple of summary
+###### Exemple of summary
 $ tulip summary  
 ![ex-summary](/images/tpl_ex_summary.jpg)
 
@@ -55,11 +55,11 @@ $ tulip summary [TABLE]
 ![ex-summary-table](/images/tpl_ex_summary_table.jpg)
 
 
-#### To Insert
+###### To Insert
 Write template and insert with command.
 * Soon It will be possible to insert data on terminal without template...
 
-##### Template Exemple  
+###### Template Exemple  
     #tp:table
         TableName
 
