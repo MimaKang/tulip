@@ -1,7 +1,7 @@
 # -*- encoding: utf-8 -*-
 
 """
-reach to author : mima@fiftypercent-magazine.org
+reach to author : mima@pm.me
 git : https://github.com/fiftypercent-mima/tulip
 
 Copyright (c) 2020 Mima Kang
